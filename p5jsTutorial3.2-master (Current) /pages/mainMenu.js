@@ -31,7 +31,7 @@ function drawMainMenu()
 		image(buttonEasyGameLight,350,200);
 		if(mouseIsPressed)
 	{
-		canvasID = -3;
+		canvasID = 2;
 	}
 	}
 	else
@@ -46,7 +46,7 @@ function drawMainMenu()
 		image(buttonHardGameLight,350,300);
 		if(mouseIsPressed)
 	{
-		canvasID = -4;
+		canvasID = 5;
 	}
 	}
 	else
